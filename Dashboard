@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Computer Systems Prac 1</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href = "webstyle.css" rel="stylesheet" type="text/css" />
+<style>
+body{margin: auto;
+	text-align: center;
+	background-color: lightgray;
+	}
+p{text-align: justify;
+	font-size: 25px;
+	}
+table, th, td {
+  border: 1px gray;
+  border-collapse: collapse;
+}
+center {
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+
+<div class = "topnav" id="myTopnav" style="width:100%">
+<a href="index.html">Home</a>
+<a href="Humid.html">Humidity</a>
+<a href="Temp.html">Temperature</a>
+</div>
+
+<body>
+<!--<img src="Sensor Layout.png" alt="Sensor Locations in Mine" width="60px" height="45px" usemap="#sensormap">-->
+<br>
+
+<!--Dashboard-->
+<table class="center">
+<tr><td colspan="2">
+<h1 align="center" color="#00FFFF">Data Collection Dashboard</h1>
+</td></tr>
+<th>Mining Sensor1</th>
+<tr>
+<td>
+<iframe width="500" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/462380?dynamic=true"></iframe>
+</td>
+<td>
+<iframe width="500" height="300" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/462508?dynamic=true"></iframe>
+</td>
+</tr>
+<tr>
+<td>
+<img src="MS1.PNG" height="300" width="500">
+</td>
+<td>
+<img src="MS2.PNG" height="300" width="500">
+</td>
+</tr>
+<tr>
+<td>
+<img src="MS3.PNG" height="300" width="500">
+</td>
+<td>
+<img src="MS4.PNG" height="300" width="500">
+</td>
+</tr>
+
+<!--<img src="Sensor Layout.png" usemap="#image-map">
+
+<map name="image-map">
+    <area target="_self" alt="MiningSensor1" title="MiningSensor1" href="file:///C:/Users/charl/Downloads/UJ_confidential/4th%20Year%202022/1st%20Semester/Computer%20Systems%204A/Practicals/Practical_1/MiningSensor1.html" coords="807,1247,1122,1127" shape="rect">
+    <area target="_self" alt="MiningSensor2" title="MiningSensor2" href="file:///C:/Users/charl/Downloads/UJ_confidential/4th%20Year%202022/1st%20Semester/Computer%20Systems%204A/Practicals/Practical_1/MiningSensor2.html" coords="1145,780,1478,910" shape="rect">
+    <area target="_self" alt="MiningSensor3" title="MiningSensor3" href="file:///C:/Users/charl/Downloads/UJ_confidential/4th%20Year%202022/1st%20Semester/Computer%20Systems%204A/Practicals/Practical_1/MiningSensor3.html" coords="2025,1337,2347,1453" shape="rect">
+    <area target="_self" alt="MiningSensor4" title="MiningSensor4" href="file:///C:/Users/charl/Downloads/UJ_confidential/4th%20Year%202022/1st%20Semester/Computer%20Systems%204A/Practicals/Practical_1/MiningSensor4.html" coords="3261,957,3504,1098" shape="rect">
+</map>-->
+
+</body>
+</html>
+
